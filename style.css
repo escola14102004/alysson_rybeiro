@@ -2,6 +2,11 @@
 *{margin: 0px;
     padding: 0px;
 }
+/*CORPO DA PAGINA*/
+body{
+font-family: sans-serif;
+}
+/*SECÇAO CABEÇALHO*/
 .cabecalho{
     background-color: blue;
     color: rgb(6, 6, 70);
@@ -17,4 +22,25 @@
 .cabecalho-item{
     display: inline-block;
     padding: 0 100px;
+    text-decoration: underline;
 }
+/*SECÇAO SERIE*/
+.serie{
+background-image: linear-gradient(rgb(1, 1, 32), rgb(45, 45, 206));
+
+
+padding: 30px;
+}
+.serie-titulo{
+padding-bottom: 30px;
+text-align: center;
+}
+.serie-div{
+display: flex;
+justify-content: center;
+}
+.serie-imagem{
+width: 300px;
+}
+/*SECÇAO PERSONAGEM*/
+
